@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="logo">
+      <div class="logo-top">
+        <img src="images/logo-top.png" />
+      </div>
+    </header>
+    <div class="main">
+      <div class="left-side">
+        <div class="form-register">
+          <h1>Register Form</h1>
+          <div class="shadow-form">
+            <form class="register-form" autocomplete="on">
+              <label class="icon-form"><i class="ion-person"></i><input type="text" class="username" name="username" placeholder="Username"></label></br>
+              <label class="icon-form"><i class="ion-locked"></i><input type="text" name="password" placeholder="Password"></label></br>
+              <label class="icon-form"><i class="ion-locked"></i><input type="text" name="cpassword" placeholder="Confirm Password"></label></br>
+              <label class="icon-form"><i class="ion-email"></i><input type="text" name="email" placeholder="Email"></label></br>
+              <label class="icon-form"><i class="ion-ios-location"></i><select class="loc-select">
+                <option value="" disabled selected>Your location</option>
+                <option value="hurr">Poland</option>
+                <option value="hurr">Germany</option>
+                <option value="hurr">Russia</option>
+              </select></label></br>
+              <input type="checkbox" id="c1" />
+              <label for="c1"><p>I have read and accept the terms of use</p></label></br>
+              <button type="button" class="button-register">Sign up</button>
+            </form>
+          </div>
+        </div>
+        <div class="form-sendemail">
+          <h1>Send Email</h1>
+          <div class="shadow-form">
+            <form class="sendmail-form" autocomplete="on">
+              <label class="icon-form"><i class="ion-person"></i><input type="text" class="username" name="name" placeholder="Your Name"></label></br>
+              <label class="icon-form"><i class="ion-email"></i><input type="text" name="email" placeholder="Your Email"></label></br>
+              <input type="textarea" placeholder="Type your message..."></br>
+              <input type="checkbox" id="c2" />
+              <label for="c2"><p>Send a copy to my Email</p></label></br>
+              <button type="button" class="button-send">Send Email</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="form-sign">
+          <h1>Sign In Form</h1>
+          <div class="shadow-form">
+            <form class="sign-form" autocomplete="on">
+              <label class="icon-form"><i class="ion-person"></i><input type="text" class="username" name="username" placeholder="Username"></label></br>
+              <label class="icon-form"><i class="ion-locked"></i><input type="text" name="password" placeholder="Password"></label></br>
+              <input type="checkbox" id="c3" />
+              <label for="c3"><p>Remember Me</p></label></br>
+              <button type="button" class="button-sign">Sign In</button>
+            </form>
+          </div>
+        </div>
+        <div class="form-recover">
+          <h1>Recover Form</h1>
+          <div class="shadow-form">
+            <form class="recover-form" autocomplete="on">
+              <label class="icon-form"><i class="ion-email"></i><input type="text" name="email" placeholder="Your Email"></label></br>
+              <label class="icon-form"><i class="ion-iphone"></i><input type="text" name="phone" placeholder="Enter your Phone number"></label></br>
+              <button type="button" class="button-recover">Send</button>
+              <button type="button" class="button-done">Done</button>
+            </form>
+          </div>
+        </div>
+        <div class="form-subscribe">
+          <h1>Subscribe</h1>
+          <div class="shadow-form">
+            <form class="subscribe-form" autocomplete="on">
+              <label class="icon-form"><i class="ion-email"></i><input type="text" name="email" placeholder="Your Email"></label></br>
+              <button type="button" class="button-subscribe">Subscribe</button>
+              <button type="button" class="button-no">No,Thanks</button>
+            </div>
+          </div>
+          <div class="bottom-logo">
+            <img src="images/logo-bot.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
