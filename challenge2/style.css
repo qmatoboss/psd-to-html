@@ -1,16 +1,14 @@
-.top-content{
-    background: url("img/header.png") no-repeat;
-    background-size: 100% 100%;
-    min-height: 1197px;
-}
 .navbar-default{
   height: 147px;
   border:0;
   margin: 0;
+  background-color: #f9f8fb;
+
 }
 
 .navbar-brand{
   margin-top: 25px;
+  margin-left: 50px;
 }
 .navbar-nav{
   margin-top: 40px;
@@ -23,8 +21,47 @@
 .navbar-default .navbar-nav>li>a:hover{
   border-top: 2px solid #ff6033;
 }
-
+.top-content{
+    background: url("img/header.png") no-repeat;
+    background-size: 100% auto;
+    min-height: 1100px;
+}
 .btn-primary{
+  background-color: #ff6033;
+  box-shadow: 5px 5px 5px #888888;
+  border: none;
+  border-radius: 0;
   width: 200px;
   height: 55px;
+}
+.btn-primary:hover{
+  background-color: #ea4313;
+}
+
+.content-1{
+  text-align: left;
+  margin-top: 300px;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.about-us{
+  background-color: #00b3b3;
+  min-height: 700px;
+}
+
+.img-about{
+  margin: 10% auto;
+}
+
+.content-about-us{
+  text-align: left;
+  margin: 40% auto; /** test **/
+}
+h2{
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
 }
