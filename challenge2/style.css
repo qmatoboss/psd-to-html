@@ -1,6 +1,6 @@
 /******** navbar and content ******/
 .navbar-default{
-  height: 147px;
+  min-height: 147px;
   border:0;
   margin: 0;
   background-color: #f9f8fb;
@@ -32,7 +32,7 @@
   box-shadow: 5px 5px 5px #888888;
   border: none;
   border-radius: 0;
-  width: 200px;
+  min-width: 200px;
   height: 55px;
 }
 .btn-primary:hover{
@@ -78,6 +78,9 @@ h2{
   width: 400px;
   margin-bottom: 10px;
 } */
+.service-buttons{
+margin-top: 170px;
+}
 .service-button{
   background-color: #ffffff;
   box-shadow: 3px 3px 4px rgba(0,0,0,.3);
@@ -115,6 +118,24 @@ a:visited{
 .icon-img{
   padding-top: 20px;
 }
+.text-img2{
+  position: relative;
+  top: 320px;
+}
+
+.galerry{
+  background-color: #ffe92f;
+  min-height: 1536px;
+}
+.text-galerry{
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+.h2-galerry{
+  color: black;
+}
+
 /*
 <div class="serviceBttn ">
 <div class="bttnTxt "><p class="">Online Shopping</p></div>
