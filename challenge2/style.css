@@ -1,3 +1,4 @@
+/******** navbar and content ******/
 .navbar-default{
   height: 147px;
   border:0;
@@ -46,7 +47,7 @@
 h1{
   font-weight: bold;
 }
-
+/******** about-us ******/
 .about-us{
   background-color: #00b3b3;
   min-height: 700px;
@@ -65,3 +66,60 @@ h2{
   font-weight: bold;
   font-size: 80px;
 }
+/******** our-services ******/
+.services{
+  background-color: #70bfff;
+  min-height: 790px;
+}
+/*.button-service{
+  position: relative;
+  left: 100px;
+  height: 100px;
+  width: 400px;
+  margin-bottom: 10px;
+} */
+.service-button{
+  background-color: #ffffff;
+  box-shadow: 3px 3px 4px rgba(0,0,0,.3);
+  width: 400px;
+  height: 100px;
+  margin: 10px auto;
+  text-align: center;
+}
+.service-button:hover{
+    color:#00b9b9;
+}
+a:visited{
+  color:inherit;
+  text-decoration: none;
+}
+.button-text{
+  float: left;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+.text-serv{
+  font-weight: 700;
+  display: table-cell;
+  vertical-align: middle;
+}
+.button-icon{
+  float: right;
+  border-left: 1px solid black;
+  height: 100%;
+  width: 100px;
+  line-height:120px;
+}
+.icon-img{
+  padding-top: 20px;
+}
+/*
+<div class="serviceBttn ">
+<div class="bttnTxt "><p class="">Online Shopping</p></div>
+<div class="bttnIcon">
+<img src="images/basket.jpg" alt="black shopping trolley icon for Online Shopping button"/>
+</div>
+</div>
+ **/
