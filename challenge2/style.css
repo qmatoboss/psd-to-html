@@ -137,9 +137,6 @@ a:visited{
 .h2-galerry{
   color: black;
 }
-.img-responsive{
-    box-shadow: 3px 3px 4px rgba(0,0,0,.3);
-}
 .margin-img1{
   margin-bottom: 20px;
 }
@@ -163,6 +160,8 @@ a:visited{
   text-align: center;
 }
 .subscribe-content{
+  background: url("img/bg-subscribe.jpg")no-repeat;
+  background-size: 100% auto;
   background-color: #ffffff;
   min-height: 500px;
 }
@@ -170,6 +169,23 @@ a:visited{
   font-size: 50px;
   text-align: left;
   color: black;
+}
+.email-input{
+  min-width: 570px;
+  min-height: 53px;
+}
+.btn-info{
+  border: none;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: #96b92c;
+  width: 170px;
+  min-height: 57px;
+  margin-left: 15px;
+}
+.blog-content{
+  background-color: #b07cf7;
+  min-height: 865px;
 }
 /*
 <div class="serviceBttn ">
