@@ -27,7 +27,8 @@
     background-size: 100% auto;
     min-height: 1100px;
 }
-.btn-primary{
+.btn-custom{
+  color: white;
   background-color: #ff6033;
   box-shadow: 5px 5px 5px #888888;
   border: none;
@@ -35,10 +36,11 @@
   min-width: 200px;
   height: 55px;
 }
-.btn-primary:hover{
+.btn-custom:hover{
+  text-decoration: none;
+  color: white;
   background-color: #ea4313;
 }
-
 .content-1{
   text-align: left;
   margin-top: 300px;
@@ -123,7 +125,7 @@ a:visited{
   top: 320px;
 }
 
-.galerry{
+.galerry-content{
   background-color: #ffe92f;
   min-height: 1536px;
 }
@@ -135,7 +137,40 @@ a:visited{
 .h2-galerry{
   color: black;
 }
-
+.img-responsive{
+    box-shadow: 3px 3px 4px rgba(0,0,0,.3);
+}
+.margin-img1{
+  margin-bottom: 20px;
+}
+.margin-img2{
+  margin-top: 20px;
+}
+.content-img{
+  margin-top: 50px;
+}
+.btn-primary{
+  position: relative;
+  color: white;
+  box-shadow: 5px 5px 5px #888888;
+  border: none;
+  border-radius: 0;
+  min-width: 200px;
+  height: 55px;
+}
+.button-view-more{
+  margin-top: 40px;
+  text-align: center;
+}
+.subscribe-content{
+  background-color: #ffffff;
+  min-height: 500px;
+}
+.subscribe-text{
+  font-size: 50px;
+  text-align: left;
+  color: black;
+}
 /*
 <div class="serviceBttn ">
 <div class="bttnTxt "><p class="">Online Shopping</p></div>
