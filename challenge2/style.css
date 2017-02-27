@@ -214,6 +214,56 @@ footer{
   background-color: #262626;
   min-height: 90px;
 }
+
+.text-contact{
+  position: relative;
+  top: 55px;
+}
+.contact-text{
+  font-size: 50px;
+}
+.contact-adress{
+  position: relative;
+  left: 150px;
+  top: 70px;
+}
+form{
+  margin-top: 80px;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+  text-indent: 25px;
+}
+::-moz-input-placeholder{
+  color: white;
+}
+.input-text{
+  opacity: 0.6;
+  color: white;
+  border: none;
+  background-color: #7adbdb;
+  width: 500px;
+  min-height: 50px;
+  margin-top: 15px;
+}
+.input-text:focus{
+  outline: none;
+}
+.input-border{
+  border-left: 5px solid #355b82;
+  background-color: #00c4c4;
+}
+.input-textarea{
+  opacity: 0.6;
+  color: white;
+  margin-top: 15px;
+  width: 500px;
+  min-height: 250px;
+  border: none;
+  background-color: #7adbdb;
+}
+
 /*
 <div class="serviceBttn ">
 <div class="bttnTxt "><p class="">Online Shopping</p></div>
