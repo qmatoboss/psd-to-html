@@ -187,6 +187,15 @@ a:visited{
   background-color: #b07cf7;
   min-height: 865px;
 }
+.text-blog{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.text-blog-p{
+  text-align: center;
+  color: white;
+}
 /*
 <div class="serviceBttn ">
 <div class="bttnTxt "><p class="">Online Shopping</p></div>
