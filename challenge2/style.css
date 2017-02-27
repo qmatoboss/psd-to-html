@@ -196,6 +196,24 @@ a:visited{
   text-align: center;
   color: white;
 }
+.btn-danger{
+  margin-top: 15px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: #f72b3b;
+  width: 170px;
+  min-height: 57px;
+}
+.contact-content{
+  background: url("img/bg-footer.jpg")no-repeat;
+  background-size: 100% auto;
+  min-height: 867px;
+}
+footer{
+  background-color: #262626;
+  min-height: 90px;
+}
 /*
 <div class="serviceBttn ">
 <div class="bttnTxt "><p class="">Online Shopping</p></div>
